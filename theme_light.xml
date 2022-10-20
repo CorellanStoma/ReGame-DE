@@ -1,0 +1,41 @@
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Light                    ║ Ratio                                                                                   ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+<theme>
+  <aspectRatio name="16:9">
+    <view name="system, gamelist">
+      <image name="background">
+          <pos>0 0</pos>
+          <size>1 1</size>
+          <path>./assets/images/background/background-16-9-light.png</path>
+          <tile>true</tile>
+          <zIndex>0</zIndex>
+      </image>
+    </view>
+
+
+    <view name="system">
+      <image name="overlay">
+          <pos>0 0</pos>
+          <size>1 1</size>
+          <path>./assets/images/overlay/overlay-16-9-light.png</path>
+          <tile>true</tile>
+          <zIndex>50</zIndex>
+      </image>
+    </view>
+
+  </aspectRatio>
+
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Emerald                  ║ Colors                                                                                  ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+<!-- Text -->
+  <view name="system">
+    <text name="SystemName, systemcarousel">
+      <color>333746</color>
+    </text>
+  </view>
+
+</theme>

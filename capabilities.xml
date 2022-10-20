@@ -1,0 +1,38 @@
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Capabilities             ║ Ratio                                                                                   ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+<themeCapabilities>
+  <aspectRatio>16:9</aspectRatio>
+  <aspectRatio>16:10</aspectRatio>
+  <aspectRatio>3:2</aspectRatio>
+  <aspectRatio>4:3</aspectRatio>
+  <aspectRatio>5:4</aspectRatio>
+  <aspectRatio>21:9</aspectRatio>
+  <aspectRatio>32:9</aspectRatio>
+
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Capabilities             ║ Variants                                                                                ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+  <variant name="DarkMode">
+      <label>Dark Mode</label>
+      <selectable>true</selectable>
+  </variant>
+
+  <variant name="LightMode">
+      <label>Light Mode</label>
+      <selectable>true</selectable>
+  </variant>
+
+  <variant name="Emerald">
+      <label>Emerald</label>
+      <selectable>true</selectable>
+  </variant>
+
+  <variant name="Ruby">
+    <label>Ruby</label>
+    <selectable>true</selectable>
+  </variant>
+
+</themeCapabilities>

@@ -1,0 +1,163 @@
+<!-- ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ ES-DE Theme                                                                                                        ║ -->
+<!-- ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ -->
+<!-- ║ Name:                    ║ ReGame-DE                                                                               ║ -->
+<!-- ║ Version:                 ║ 1.0.0                                                                                   ║ -->
+<!-- ║ Author:                  ║ CorellanStoma#1996                                                                      ║ -->
+<!-- ║ License:                 ║ MIT                                                                                     ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ General                  ║ Include                                                                                 ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+<theme>
+  <include>./navigationsounds.xml</include>
+
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ General                  ║ Variants                                                                                ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+  <variant name="DarkMode">
+    <include>./theme_dark.xml</include>
+  </variant>
+
+  <variant name="LightMode">
+    <include>./theme_light.xml</include>
+  </variant>
+
+  <variant name="Emerald">
+    <include>./theme_emerald.xml</include>
+  </variant>
+
+  <variant name="Ruby">
+    <include>./theme_ruby.xml</include>
+  </variant>
+
+
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ General                  ║ Header                                                                                  ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ General                  ║ Footer                                                                                  ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+  <variant name="DarkMode, LightMode, Emerald, Ruby">
+    <view name="system, gamelist">
+      <helpsystem name="help">
+        <entrySpacing>0.02</entrySpacing>
+         <fontSize>0.028</fontSize>
+         <pos>0.065 0.955</pos>
+         <textColor>ffffff</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+    </view>
+  </variant>
+  
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ System                   ║ Carousel                                                                                ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+<!-- Systems -->
+  <variant name="DarkMode, LightMode, Emerald, Ruby">
+    <view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <size>1 0.46</size>
+        <pos>0 0.25</pos>
+        <color>00000000</color>
+        <itemSize>0.158 0.282</itemSize>
+        <itemScale>1.2</itemScale>
+        <maxItemCount>5</maxItemCount>
+        <itemVerticalAlignment>top</itemVerticalAlignment>
+        <unfocusedItemOpacity>1.0</unfocusedItemOpacity>
+        <horizontalOffset>-0.34</horizontalOffset>
+        <verticalOffset>0.12</verticalOffset>
+        <defaultItem>./assets/images/covers/unknown.png</defaultItem>
+        <staticItem>./assets/images/covers/${system.theme}.png</staticItem>
+        <fontPath>./assets/fonts/coolvetica.ttf</fontPath>
+        <letterCase>capitalize</letterCase>
+        <zIndex>40</zIndex>
+      </carousel>
+    </view>
+  </variant>
+
+<!-- System Name -->
+  <variant name="DarkMode, LightMode, Emerald, Ruby">
+    <view name="system">
+      <text name="SystemName">
+        <systemdata>fullname</systemdata>
+        <fontPath>./assets/fonts/coolvetica.ttf</fontPath>
+        <fontSize>0.06</fontSize>
+        <pos>0.065 0.66</pos>
+      </text>
+    </view>
+  </variant>
+
+<!-- Game Count -->
+  <variant name="DarkMode, LightMode, Emerald, Ruby">
+    <view name="system">
+      <text name="GameCount">
+        <systemdata>gamecount</systemdata>
+        <fontPath>./assets/fonts/coolvetica.ttf</fontPath>
+        <color>FFFFFF</color>
+        <fontSize>0.04</fontSize>
+        <pos>0.065 0.74</pos>
+      </text>
+    </view>
+  </variant>
+
+<!--Release -->
+  <variant name="DarkMode, LightMode, Emerald, Ruby">
+    <view name="system">
+      <text name="Release">
+        <text>Release</text>
+        <fontPath>./assets/fonts/coolvetica.ttf</fontPath>
+        <color>FFFFFF</color>
+        <fontSize>0.04</fontSize>
+        <pos>0.065 0.8</pos>
+      </text>
+    </view>
+  </variant>  
+
+
+
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ System                   ║ Info                                                                                    ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+
+
+
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Gamelist                 ║ List                                                                                    ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+
+
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Gamelist                 ║ Carousel                                                                                ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+<!-- ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ -->
+<!-- ║ Gamelist                 ║ Background Music                                                                        ║ -->
+<!-- ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ -->
+
+  <variant name="DarkMode, LightMode, Emerald, Ruby">
+    <view name="gamelist">
+      <video name="music">
+        <pos>0 0</pos>
+        <size>1 1</size>
+        <path>./assets/video/systems/${system.theme}.mp4</path>
+        <default>./assets/video/systems/unknown.mp4</default>
+        <opacity>0.00001</opacity>
+        <zIndex>0</zIndex>
+      </video>
+    </view>
+  </variant>
+
+
+
+</theme>
